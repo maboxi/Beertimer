@@ -1,3 +1,6 @@
+# Project specific
+auth.json
+
 # Logs
 logs
 *.log
