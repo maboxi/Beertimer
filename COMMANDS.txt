@@ -1,0 +1,12 @@
+Commands for using the Beertimer bot: (assuming your prefix is '-'; you can change that in the auth.json config file):
+
+-timer			Bot not started: tells you the current intervall
+			Bot started: tells you the time until the next alert
+-timer set <time>	Set the intervall for the alert, minimum is 30 seconds
+			Example: 	Set interval to 1 minute: -timer set 5m
+					Set interval to 45 seconds: -timer set 45
+			(TODO: combination of minutes and seconds)
+-start			Start the timer
+			if the user that sent the command is in a voice channel, the bot will also try to join that voice channel
+			it will always send text alerts in the text channel that the start command was from (TODO: cmd to turn off text / voice alerts)
+-stop			Stops the bot; it will also leave the voice channel if it is connected to one
