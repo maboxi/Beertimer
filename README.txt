@@ -1,5 +1,8 @@
 This version of the project is configured to run on a raspberry pi 3. It will probably also run on other linux systems, and it also once ran on a windows system, so please feel free to try it out. If you encounter any problems (as i did when porting it to rpi linux), please contact me through the issues page, and we can try to get it running on your system as well.
 
+Since the project is based on node.js, you have to install all dependencies:
+npm install
+
 start the bot with:
 node bot.js
 
@@ -16,4 +19,4 @@ To use the bot, invite it to your server. On your server, you will also need a r
 
 WARNING: I do not own the rights to the drink alert sound. I mixed it together using a handful of sound files that i think are funny, so if you want a different sound, just replace the beeropening.mp3 file with anything you want to use as the alert sound.
 
-NOTE: This bot cannot be used on multiple servers at the same time! You can also send commands to the bot from a different server than the one it's currently working on! This may be changed in the future. 
+NOTE: This bot cannot be used on multiple servers at the same time! You can also send commands to the bot from a different server than the one it's currently working on! This may be changed in the future.
