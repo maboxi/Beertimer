@@ -26,7 +26,7 @@ var lastSend = Date.now();
 
 var curTimerID = 0;
 
-console.log("Starte autotimer at ms " + lastSend);
+console.log("Starting autotimer at ms " + lastSend);
 
 client.on('message', async message => {
 	if(message.author.bot)
@@ -108,7 +108,7 @@ client.on('message', async message => {
 					}
 				}
 				
-				message.channel.send('Trinken angesagt!');
+				//message.channel.send('Trinken angesagt!'); // -- Text-Ansagen entfernt
 				lastSend = Date.now();
 				await new Promise(resolve => setTimeout(resolve, intervall));
 			}
